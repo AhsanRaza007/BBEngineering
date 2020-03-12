@@ -122,7 +122,7 @@ hr.light{
     top:35%;
   }
   .carousel-caption h1{
-    font-size: 250%;
+    font-size: 200%;
     text-transform: uppercase;
     text-shadow: 1px 1px 20px #000;
   }
@@ -135,9 +135,6 @@ hr.light{
   .carousel-caption .btn{
     font-size: 90%;
     padding: 4px 8px;
-  }
-  .display-4{
-    font-size: 200%;
   }
   .carousel-indicators{
     display: none;
