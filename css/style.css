@@ -6,7 +6,10 @@ html, body{
   font-family: 'Poppins',sans-serif;
   color: #222;
 }
-
+#img-ptfe{
+  border: none;
+  border-radius: 25px;
+}
 .navbar{
   padding: .8rem;
 }
@@ -54,6 +57,7 @@ html, body{
   color:#6e4dd1;
   font-size: 4em;
   margin:1rem;
+  text-shadow: 3px 3px 3px rgba(110, 77, 209,0.5);
 }
 
 footer{
@@ -65,8 +69,12 @@ hr.light{
   border-top: 1px solid #d5d5d5;
   width:75%;
 }
-
-
+.card{
+  box-shadow: 1px 1px 10px #d5d5d5;
+}
+.card-content{
+  padding: 20px;
+}
 /*Media Queries*/
 @media(max-width:992px){
   .carousel-caption{
