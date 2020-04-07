@@ -133,6 +133,7 @@ hr.light{
 }
 @media(max-width:650px){
   .carousel-caption{
+    position: absolute;
     top:35%;
   }
   .carousel-caption h1{
@@ -155,5 +156,32 @@ hr.light{
   }
   .display-4{
     font-size: 160%;
+  }
+}
+@media(max-width:540px){
+  .carousel-caption{
+    position: absolute;
+    top:40%;
+  }
+  .carousel-caption h1{
+    font-size: 230%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 20px #000;
+  }
+  .carousel-caption h3{
+    font-size: 100%;
+    font-weight: 300;
+    text-shadow: 1px 1px 15px #000;
+    padding-bottom: 0.4rem;
+  }
+  .carousel-caption .btn{
+    font-size: 90%;
+    padding: 4px 8px;
+  }
+  .carousel-indicators{
+    display: none;
+  }
+  .display-4{
+    font-size: 185%;
   }
 }
