@@ -93,8 +93,7 @@ background-color: #4CAF50;
   margin: 40px auto;
 }
 .content p{
-  font-size: 1.15em;
-  color: rgb(91, 102, 97);
+  font-size: 1rem;
 }
 .content img{
   border-radius: 8px;
@@ -106,10 +105,6 @@ background-color: #4CAF50;
   margin: 20px auto;
   border: 1px solid #262626;
   border-radius: 10px;
-}
-.vr{
-  border-left: 1px solid #f1f1f1;
-  height: 100%;
 }
 
 footer{
