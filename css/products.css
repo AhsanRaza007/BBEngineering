@@ -52,7 +52,7 @@ background-color: #4CAF50;
  width: 100%;
 }
 .dropbtn:after{
-  content: ' \00BB';
+  content: '\00BB';
   font-size: 20px;
 }
 .dropdown-content{
