@@ -10,7 +10,7 @@
 .carousel-caption img{
   height: 330px;
   width: auto;
-  filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+  filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.6));
 }
 
 .welcome{
