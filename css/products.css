@@ -1,25 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
-
-html, body{
-  height: 100%;
-  width: 100%;
-  font-family: 'Poppins',sans-serif;
-  color: #222;
-  background-color: rgba(247, 237, 237,0.1);
-}
-nav{
-  box-shadow: 0px 0px 8px rgba(34,34,34,0.45);
-}
-.navbar{
-  padding: .8rem;
-}
-.navbar-nav li{
-  padding-right:20px;
-}
-.nav-link{
-  font-size: 1.1em;!important;
-}
-
 .heading{
   background-image: url("../images/machining.jpg");
   background-attachment: fixed;
@@ -34,7 +12,7 @@ nav{
   font-size: 2em;
 }
 .heading-title-small{
-  color: Yellow;
+  color: white;
   font-size: 1.5em;
 }
 .dropdown{
@@ -44,7 +22,7 @@ nav{
   margin: 22px auto;
 }
 .dropbtn{
-background-color: #4CAF50;
+ background-color: #b52c20;
  color: white;
  padding: 12px 16px;
  font-size: 20px;
@@ -56,7 +34,6 @@ background-color: #4CAF50;
   font-size: 20px;
 }
 .dropdown-content{
- /*display: none;*/
  opacity: 0;
  height: 0;
  transition: 0.5s;
@@ -76,49 +53,53 @@ background-color: #4CAF50;
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover { text-decoration: none; color: black; background-color: #ddd;}
 
 .dropdown:hover .dropdown-content {
-  /*display: block;*/
   opacity: 1;
   height: auto;
-
 }
+.dropdown:hover .dropbtn {background-color: #b52c2c;}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-
-
-
-.head-text{
-  color: rgba(91, 102, 97,0.8);
-  width:90%;
-  margin: 40px auto;
-  font-size: 1em;
-  letter-spacing: 1.25px;
-  line-height: 22px;
+.product-cards{
+  padding: 4rem 2rem;
+  height: 500px;
+  overflow-y: auto;
 }
-
-.row{
-  width:95%;
-  margin: 0 auto;
+.product-cards::-webkit-scrollbar{
+  width: 5px;
+}
+.product-cards::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  border-radius: 3px;
 }
 .card{
   box-shadow: 1px 1px 10px #d5d5d5;
   margin-bottom: 10px;
   transition: 0.4s;
+
 }
 .card-content{
   padding: 20px;
+  background-color: #f7eded;
+}
+.card-title{
+  color: #b52c2c;
 }
 .card:hover{
   transform: translate(0px,-10px);
 }
-footer{
-  background-color: #3f3f3f;
-  color: #d5d5d5;
-  padding-top: 2rem;
+.table-properties{
+  padding: 2rem;
 }
-hr.light{
-  border-top: 1px solid #d5d5d5;
-  width:75%;
+.table-properties table{
+  table-layout: fixed;
+  width: 100%;
+}
+.table-properties ul{
+  padding-left: 20px;
+}
+.table-properties tr:nth-child(odd){
+  background-color: #f7eded;
 }

@@ -1,25 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
-
-html, body{
-  height: 100%;
-  width: 100%;
-  font-family: 'Poppins',sans-serif;
-  color: #222;
-  background-color: rgba(247, 237, 237,0.1);
-}
-.navbar{
-  padding: .8rem;
-  z-index: 1000;
-  transition: 1s ease 0s;
-}
-.navbar-nav li{
-  padding-right:20px;
-}
-.nav-link{
-  font-size: 1.1em;!important;
-}
 .bg{
-  background-image: url("../images/ptfe-background.jpg");
+  background-image: url("../images/backgrounds/ptfe-background.jpg");
   height:60%;
   position: static;
   background-attachment: fixed;
@@ -36,8 +16,9 @@ html, body{
   transform: translate(-50%, -140%);
   color: white;
   font-weight: bold;
-  background-color: #6983aa;
+  background-color: #b52c2c;
   padding: 10px;
+  white-space: nowrap;
 }
 .bg-title{
   font-size: 1.2rem;
@@ -47,26 +28,59 @@ html, body{
   transform: translate(-50%, -35%);
   color: white;
   font-weight: bold;
-  background-color: #6983aa;
+  background-color: #b52c2c;
   padding: 10px;
   white-space: nowrap;
 }
+
 .first{
-  background-color: #f4f4f4;
+  background-color: #f7eded;
   padding: 20px;
 }
-.row{
-  margin: 50px auto;
-}
-.content hr{
-  border-color: #fff;
+.second{
+  margin: 10px;
+  padding: 10px;
 }
 .third{
-  background-color:#f4f4f4;
+  background-color:#f7eded;
+  padding: 20px;
 }
+.third h2{
+  color: #b52c2c;
+}
+.third h4{
+  color: #b52c2c;
+}
+.fourth{
+  padding-top: 2rem;
+}
+.table-custom{
+  margin-top: 2rem;
+  height: 500px;
+  overflow-y: auto;
+}
+.table-custom::-webkit-scrollbar{
+  width: 5px;
+  height: 5px;
+}
+.table-custom::-webkit-scrollbar-thumb{
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  border-radius: 3px;
+ }
+.table-custom th{
+   position: sticky;
+   background-color: rgb(247, 237, 237);
+   top:0px;
+   border-top: 1px solid #dee2e6;
+   border-bottom: 1px solid #dee2e6;
+ }
+
 .third-inner{
   background-color:rgb(247, 237, 237);
-  height: 550px;
+  height: 400px;
+  padding: 4rem 2rem;
+  margin-top: 3rem;
   overflow-y: auto;
 }
 .third-inner::-webkit-scrollbar{
@@ -77,121 +91,26 @@ html, body{
   outline: 1px solid slategrey;
   border-radius: 3px;
  }
-.lead{
-  font-size: 100%;
-}
-.pad{
-  padding: 30px;
-}
-.second{
-  padding-top: 20px;
-}
-.table-custom{
-  margin-top: 1rem;
-  height: 700px;
-  overflow-y: auto;
-}
-.table-custom::-webkit-scrollbar{
-  width: 5px;
-  height: 5px;
-  overflow: hidden;
-}
-.table-custom::-webkit-scrollbar-thumb{
-  background-color: darkgrey;
-  outline: 1px solid slategrey;
-  border-radius: 3px;
- }
- .table-custom th{
-   position: sticky;
-   background-color: rgb(247, 237, 237);
-   top:0px;
-   border-top: 1px solid #dee2e6;
-   border-bottom: 1px solid #dee2e6;
- }
  .card-img-overlay h6{
-   background-color: rgba(0, 0, 0, 0.6);
-   color: white;
-   position: absolute;
-   bottom: 0;
-   width: 100%;
-   left:0;
-   padding: 20px;
-   margin: 0;
- }
- .card-columns{
-   display: inline-block;
- }
-footer{
-  background-color: #3f3f3f;
-  color: #fff;
-  padding-top: 2rem;
-}
-hr.light{
-  border-top: 1px solid #fff;
-  width:75%;
-}
-@media(max-width:1024px) {
-  h3{
-    font-size: 1.55rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left:0;
+    padding: 20px;
+    margin: 0;
   }
-  .content p{
-    font-size: 0.9rem;
-  }
-  .bg{
-    height: 40%;
-  }
-  .bg-text{
-    top:30%;
-    white-space: nowrap;
-  }
-  .bg-title{
-    transform: translate(-50%,-600%);
-  }
-}
-@media(max-width:770px) {
-  h3{
-    font-size: 1.55rem;
-  }
-  .content p{
-    font-size: 0.9rem;
-  }
-  .bg{
-    height: 45%;
-  }
-  .bg-text{
-    top:35%;
-    white-space: nowrap;
-  }
-  .bg-title{
-    transform: translate(-50%,-350%);
-  }
-  .display-4{
-    font-size: 300%;
-  }
-}
+
+
 @media(max-width:425px) {
-  h3{
-    font-size: 1.3rem;
-  }
-  .content p{
-    font-size: 0.9rem;
-  }
-  .display-4{
-    font-size: 230%;
-  }
-  .bg{
-    height: 40%;
-  }
   .bg-text{
-    font-size: 100%;
-    white-space: nowrap;
-    top:35%;
-    transform: translate(-50%, -200%);
+    font-size: 90%;
+    transform: translate(-50%, -230%);
   }
   .bg-title{
-    font-size: 60%;
-    white-space: pre;
-    transform: translate(-50%, -390%);
+    font-size: 58%;
+    transform: translate(-50%, -140%);
   }
   .table-custom td{
     font-size: x-small;
