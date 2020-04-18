@@ -7,7 +7,15 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.bg-filled{
+  background-image: url("../images/backgrounds/filled-background.jpg");
+  height:60%;
+  position: static;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .bg-text{
   font-size: 1.8rem;
   position: absolute;
