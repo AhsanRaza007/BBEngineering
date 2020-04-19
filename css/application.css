@@ -1,0 +1,60 @@
+.bg{
+  background-image: url("../images/backgrounds/ptfe-background.jpg");
+  height:60%;
+  position: static;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-text{
+  font-size: 1.8rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -140%);
+  color: white;
+  font-weight: bold;
+  background-color: #b52c2c;
+  padding: 10px;
+  white-space: nowrap;
+}
+.bg-title{
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -35%);
+  color: white;
+  font-weight: bold;
+  background-color: #b52c2c;
+  padding: 10px;
+  white-space: nowrap;
+}
+
+.header{
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .symbol{
+  font-size: small;
+}
+
+.card-body img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media(max-width:425px) {
+  .bg-text{
+    font-size: 90%;
+    transform: translate(-50%, -230%);
+  }
+  .bg-title{
+    font-size: 90%;
+    transform: translate(-50%, -120%);
+  }
+}
