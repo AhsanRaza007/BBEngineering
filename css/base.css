@@ -73,6 +73,38 @@ nav{
 }
 
 
+.form{
+  display: block;
+  box-shadow: 1px 2px 25px #262626;
+  margin: 10% auto !important;
+  padding: 5%;
+  width: 50%;
+}
+
+.top{
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+
+}
+.middle{
+border-radius: 0;
+margin-top: -1px;
+margin-bottom: -1px
+}
+.bottom{
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form .btn{
+  margin: 10px auto;
+  width: 100%;
+  box-shadow: 1px 1px 5px #262626;
+}
+.form .btn:hover{
+  background-color: #841414 !important;
+}
+
 footer{
   background-color: #b52c2c;
   color: #fff;
@@ -101,6 +133,9 @@ hr.light{
   .display-4{
     font-size: 190% !important;
   }
+  .form{
+    width: 60%;
+  }
 }
 
 @media(max-width:425px) {
@@ -110,5 +145,8 @@ hr.light{
   }
   .display-4{
     font-size: 190% !important;
+  }
+  .form{
+    width: 80%;
   }
 }
