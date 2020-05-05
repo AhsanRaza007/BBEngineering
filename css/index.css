@@ -24,14 +24,14 @@
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-.fa-plane,.fa-car,.fa-plus{
+.icon-plane,.icon-car,.icon-plus,.icon-users{
   color:#b52c2c;
   font-size: 4em;
   margin:1rem;
   text-shadow: 3px 3px 3px rgba(181, 44, 44,0.5);
   transition: 0.4s;
 }
-.fa-plane:hover,.fa-car:hover,.fa-plus:hover{
+.icon-plane:hover,.icon-car:hover,.icon-plus:hover, .icon-users:hover{
   font-size: 5em;
 }
 
